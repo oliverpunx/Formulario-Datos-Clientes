@@ -27,7 +27,7 @@ class CorreoController{
             $envio=False;
             
             if (!empty($valor)){
-                $envio = $items->enviaCorreo('miguel.lopez@lhenriques.com',$_GET['mail'],'L Henriques - Actualización de Datos',$valor);
+                $envio = $items->enviaCorreo('mrlopex.7783@gmail.com',$_GET['mail'],'L Henriques - Actualización de Datos',$valor);
             }
     
             //Finalmente presentamos nuestra plantilla
