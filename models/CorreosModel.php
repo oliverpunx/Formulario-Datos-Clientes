@@ -23,7 +23,7 @@ class CorreosModel{
         //$mail->SMTPDebug    = 3;
         
         $mail->IsSMTP();
-        $mail->Host = '192.168.2.77';   /*Servidor SMTP*/																		
+        $mail->Host = 'localhost';   /*Servidor SMTP*/																		
         $mail->SMTPSecure = '';   /*Protocolo SSL o TLS*/
         $mail->Port = 25;   /*Puerto de conexión al servidor SMTP*/
         $mail->SMTPAuth = false;   /*Para habilitar o deshabilitar la autenticación*/
